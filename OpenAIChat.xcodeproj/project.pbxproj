@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		594018DE2B8E9A13009ABC9F /* OpenAIChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594018DD2B8E9A13009ABC9F /* OpenAIChatApp.swift */; };
-		594018E02B8E9A13009ABC9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594018DF2B8E9A13009ABC9F /* ContentView.swift */; };
 		594018E22B8E9A15009ABC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594018E12B8E9A15009ABC9F /* Assets.xcassets */; };
 		594018E52B8E9A15009ABC9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594018E42B8E9A15009ABC9F /* Preview Assets.xcassets */; };
 		594018E72B8E9A15009ABC9F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594018E62B8E9A15009ABC9F /* Persistence.swift */; };
@@ -16,6 +15,27 @@
 		594018F42B8E9A15009ABC9F /* OpenAIChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594018F32B8E9A15009ABC9F /* OpenAIChatTests.swift */; };
 		594018FE2B8E9A15009ABC9F /* OpenAIChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594018FD2B8E9A15009ABC9F /* OpenAIChatUITests.swift */; };
 		594019002B8E9A15009ABC9F /* OpenAIChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594018FF2B8E9A15009ABC9F /* OpenAIChatUITestsLaunchTests.swift */; };
+		594019152B8EA530009ABC9F /* ApiResponse+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019132B8EA530009ABC9F /* ApiResponse+CoreDataClass.swift */; };
+		594019162B8EA530009ABC9F /* ApiResponse+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019142B8EA530009ABC9F /* ApiResponse+CoreDataProperties.swift */; };
+		5940191B2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019192B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataClass.swift */; };
+		5940191C2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940191A2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataProperties.swift */; };
+		5940191F2B8EB13A009ABC9F /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940191D2B8EB13A009ABC9F /* Message+CoreDataClass.swift */; };
+		594019202B8EB13A009ABC9F /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940191E2B8EB13A009ABC9F /* Message+CoreDataProperties.swift */; };
+		594019242B8F90EE009ABC9F /* Chat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019222B8F90EE009ABC9F /* Chat+CoreDataClass.swift */; };
+		594019252B8F90EE009ABC9F /* Chat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019232B8F90EE009ABC9F /* Chat+CoreDataProperties.swift */; };
+		594019282B8FE0BE009ABC9F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019272B8FE0BE009ABC9F /* MainView.swift */; };
+		5940192E2B8FE578009ABC9F /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940192D2B8FE578009ABC9F /* MessageModel.swift */; };
+		594019322B8FED38009ABC9F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594019312B8FED38009ABC9F /* MessageView.swift */; };
+		595BF5A82B90281500E135BF /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BF5A72B90281500E135BF /* ChatModel.swift */; };
+		595BF5AA2B90282400E135BF /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BF5A92B90282400E135BF /* ChatViewModel.swift */; };
+		595BF5AE2B90391500E135BF /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BF5AD2B90391500E135BF /* ChatView.swift */; };
+		596B795E2B9107AC00C93BC0 /* SMBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B795D2B9107AC00C93BC0 /* SMBView.swift */; };
+		596B79602B91087E00C93BC0 /* SMBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B795F2B91087E00C93BC0 /* SMBViewModel.swift */; };
+		596B79622B9108B900C93BC0 /* SMBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B79612B9108B900C93BC0 /* SMBModel.swift */; };
+		596B79642B910B2900C93BC0 /* ApiResponsePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B79632B910B2900C93BC0 /* ApiResponsePersistence.swift */; };
+		596B79682B91143E00C93BC0 /* TextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B79672B91143E00C93BC0 /* TextFieldViewModel.swift */; };
+		596B796A2B91145400C93BC0 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B79692B91145400C93BC0 /* TextFieldModel.swift */; };
+		59B8C2982B95067B00C19B1E /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8C2972B95067B00C19B1E /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +58,6 @@
 /* Begin PBXFileReference section */
 		594018DA2B8E9A13009ABC9F /* OpenAIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594018DD2B8E9A13009ABC9F /* OpenAIChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIChatApp.swift; sourceTree = "<group>"; };
-		594018DF2B8E9A13009ABC9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		594018E12B8E9A15009ABC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		594018E42B8E9A15009ABC9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		594018E62B8E9A15009ABC9F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +67,27 @@
 		594018F92B8E9A15009ABC9F /* OpenAIChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAIChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594018FD2B8E9A15009ABC9F /* OpenAIChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIChatUITests.swift; sourceTree = "<group>"; };
 		594018FF2B8E9A15009ABC9F /* OpenAIChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		594019132B8EA530009ABC9F /* ApiResponse+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiResponse+CoreDataClass.swift"; sourceTree = "<group>"; };
+		594019142B8EA530009ABC9F /* ApiResponse+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiResponse+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		594019192B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiResponseChoices+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5940191A2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiResponseChoices+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5940191D2B8EB13A009ABC9F /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5940191E2B8EB13A009ABC9F /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		594019222B8F90EE009ABC9F /* Chat+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat+CoreDataClass.swift"; sourceTree = "<group>"; };
+		594019232B8F90EE009ABC9F /* Chat+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		594019272B8FE0BE009ABC9F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5940192D2B8FE578009ABC9F /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		594019312B8FED38009ABC9F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		595BF5A72B90281500E135BF /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		595BF5A92B90282400E135BF /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		595BF5AD2B90391500E135BF /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		596B795D2B9107AC00C93BC0 /* SMBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBView.swift; sourceTree = "<group>"; };
+		596B795F2B91087E00C93BC0 /* SMBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBViewModel.swift; sourceTree = "<group>"; };
+		596B79612B9108B900C93BC0 /* SMBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBModel.swift; sourceTree = "<group>"; };
+		596B79632B910B2900C93BC0 /* ApiResponsePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponsePersistence.swift; sourceTree = "<group>"; };
+		596B79672B91143E00C93BC0 /* TextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModel.swift; sourceTree = "<group>"; };
+		596B79692B91145400C93BC0 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		59B8C2972B95067B00C19B1E /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +138,13 @@
 		594018DC2B8E9A13009ABC9F /* OpenAIChat */ = {
 			isa = PBXGroup;
 			children = (
+				594019362B8FF504009ABC9F /* UI */,
+				594019292B8FE11E009ABC9F /* Modules */,
 				594018DD2B8E9A13009ABC9F /* OpenAIChatApp.swift */,
-				594018DF2B8E9A13009ABC9F /* ContentView.swift */,
-				594018E12B8E9A15009ABC9F /* Assets.xcassets */,
-				594018E62B8E9A15009ABC9F /* Persistence.swift */,
-				594018E82B8E9A15009ABC9F /* OpenAIChat.xcdatamodeld */,
+				594019272B8FE0BE009ABC9F /* MainView.swift */,
+				5940190C2B8E9A4F009ABC9F /* DataModel */,
 				594018E32B8E9A15009ABC9F /* Preview Content */,
+				594018E12B8E9A15009ABC9F /* Assets.xcassets */,
 			);
 			path = OpenAIChat;
 			sourceTree = "<group>";
@@ -131,6 +172,121 @@
 				594018FF2B8E9A15009ABC9F /* OpenAIChatUITestsLaunchTests.swift */,
 			);
 			path = OpenAIChatUITests;
+			sourceTree = "<group>";
+		};
+		5940190C2B8E9A4F009ABC9F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				594019262B8F94CA009ABC9F /* Chat */,
+				594019212B8EC3A0009ABC9F /* Message */,
+				594019182B8EA95B009ABC9F /* ApiResponseChoices */,
+				594019172B8EA944009ABC9F /* ApiResponse */,
+				594018E82B8E9A15009ABC9F /* OpenAIChat.xcdatamodeld */,
+				594018E62B8E9A15009ABC9F /* Persistence.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		594019172B8EA944009ABC9F /* ApiResponse */ = {
+			isa = PBXGroup;
+			children = (
+				594019142B8EA530009ABC9F /* ApiResponse+CoreDataProperties.swift */,
+				594019132B8EA530009ABC9F /* ApiResponse+CoreDataClass.swift */,
+				596B79632B910B2900C93BC0 /* ApiResponsePersistence.swift */,
+			);
+			path = ApiResponse;
+			sourceTree = "<group>";
+		};
+		594019182B8EA95B009ABC9F /* ApiResponseChoices */ = {
+			isa = PBXGroup;
+			children = (
+				594019192B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataClass.swift */,
+				5940191A2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataProperties.swift */,
+			);
+			path = ApiResponseChoices;
+			sourceTree = "<group>";
+		};
+		594019212B8EC3A0009ABC9F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5940191E2B8EB13A009ABC9F /* Message+CoreDataProperties.swift */,
+				5940191D2B8EB13A009ABC9F /* Message+CoreDataClass.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		594019262B8F94CA009ABC9F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				594019222B8F90EE009ABC9F /* Chat+CoreDataClass.swift */,
+				594019232B8F90EE009ABC9F /* Chat+CoreDataProperties.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		594019292B8FE11E009ABC9F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5940192C2B8FE1DB009ABC9F /* SideBar */,
+				5940192A2B8FE1A3009ABC9F /* Chat */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5940192A2B8FE1A3009ABC9F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				595BF5AD2B90391500E135BF /* ChatView.swift */,
+				595BF5A92B90282400E135BF /* ChatViewModel.swift */,
+				595BF5A72B90281500E135BF /* ChatModel.swift */,
+				5940192B2B8FE1CC009ABC9F /* Messages */,
+				596B795C2B91058C00C93BC0 /* SendMessageButton */,
+				596B79562B91049E00C93BC0 /* TextField */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		5940192B2B8FE1CC009ABC9F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				594019312B8FED38009ABC9F /* MessageView.swift */,
+				5940192D2B8FE578009ABC9F /* MessageModel.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		5940192C2B8FE1DB009ABC9F /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SideBar;
+			sourceTree = "<group>";
+		};
+		594019362B8FF504009ABC9F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		596B79562B91049E00C93BC0 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				59B8C2972B95067B00C19B1E /* TextFieldView.swift */,
+				596B79672B91143E00C93BC0 /* TextFieldViewModel.swift */,
+				596B79692B91145400C93BC0 /* TextFieldModel.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		596B795C2B91058C00C93BC0 /* SendMessageButton */ = {
+			isa = PBXGroup;
+			children = (
+				596B795D2B9107AC00C93BC0 /* SMBView.swift */,
+				596B795F2B91087E00C93BC0 /* SMBViewModel.swift */,
+				596B79612B9108B900C93BC0 /* SMBModel.swift */,
+			);
+			path = SendMessageButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +419,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596B79622B9108B900C93BC0 /* SMBModel.swift in Sources */,
+				5940191F2B8EB13A009ABC9F /* Message+CoreDataClass.swift in Sources */,
+				59B8C2982B95067B00C19B1E /* TextFieldView.swift in Sources */,
+				594019282B8FE0BE009ABC9F /* MainView.swift in Sources */,
+				596B79642B910B2900C93BC0 /* ApiResponsePersistence.swift in Sources */,
+				596B795E2B9107AC00C93BC0 /* SMBView.swift in Sources */,
+				594019242B8F90EE009ABC9F /* Chat+CoreDataClass.swift in Sources */,
+				5940191C2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataProperties.swift in Sources */,
+				595BF5AE2B90391500E135BF /* ChatView.swift in Sources */,
+				596B79602B91087E00C93BC0 /* SMBViewModel.swift in Sources */,
+				596B796A2B91145400C93BC0 /* TextFieldModel.swift in Sources */,
+				594019252B8F90EE009ABC9F /* Chat+CoreDataProperties.swift in Sources */,
 				594018E72B8E9A15009ABC9F /* Persistence.swift in Sources */,
-				594018E02B8E9A13009ABC9F /* ContentView.swift in Sources */,
+				595BF5AA2B90282400E135BF /* ChatViewModel.swift in Sources */,
+				5940192E2B8FE578009ABC9F /* MessageModel.swift in Sources */,
+				594019162B8EA530009ABC9F /* ApiResponse+CoreDataProperties.swift in Sources */,
 				594018DE2B8E9A13009ABC9F /* OpenAIChatApp.swift in Sources */,
+				594019152B8EA530009ABC9F /* ApiResponse+CoreDataClass.swift in Sources */,
+				595BF5A82B90281500E135BF /* ChatModel.swift in Sources */,
+				596B79682B91143E00C93BC0 /* TextFieldViewModel.swift in Sources */,
 				594018EA2B8E9A15009ABC9F /* OpenAIChat.xcdatamodeld in Sources */,
+				594019202B8EB13A009ABC9F /* Message+CoreDataProperties.swift in Sources */,
+				594019322B8FED38009ABC9F /* MessageView.swift in Sources */,
+				5940191B2B8EA9B0009ABC9F /* ApiResponseChoices+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
