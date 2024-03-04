@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 import SwiftUI
 
-//Persistence Data
+//Persistence Data from Message entity
 class MessageModel{
     static let shared = MessageModel()
     let container: NSPersistentContainer
